@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
+
+  ('https://fonts.googleapis.com/css2?family=Honk&display=swap');
 *{
 	margin: 0px;
 	padding: 0px;
@@ -171,4 +173,10 @@ section.conteudo div table td{
 section.mapa iframe{
 	width: 100%;
 	height: 100%;
+} 
+section.conteudo musica dvd{
+	width: 50vw;
+	height: 50vh;
+	margin-top: 3vh;
+	margin-left 30 vw;
 }

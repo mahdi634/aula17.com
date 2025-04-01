@@ -1,0 +1,139 @@
+*{
+	margin: :0px;
+	padding: 0px;
+}
+section{
+	display: flex;
+	justify-content: center;
+}
+section.menu{
+	width:80vw;
+	height: 15vh;
+	margin-left: 10vw;
+	background-color: #7EAED9;
+	border: 2px ridge #F2F2F2;
+}
+#logo{
+	width: 20%;
+	height: 100%;
+}
+#logo img{
+	max-height: 100%;
+	max-height: 100%;
+	width: auto;
+	height: auto;
+}
+#botoes{
+	width: 80%;
+	height: 100%;
+	display: flex;
+	display-content:center;
+}
+ul.nav{
+	list-style: none;
+	width: 100%;
+	height: 100%;
+}
+ul.nav li{
+	float:left;
+	width: 10%;
+	background-color:#591483;
+	margin-left: 5%;
+	margin-top: 3%;
+	border-radius:16px;
+	border: 2px ridge #591483;
+	text-align:center;
+
+} ul.nav li a{
+	font-size: 1rem;
+	text-decoration: none;
+	color: #F2F2F2;
+	 font-family: sons-serif;
+	 display: block;
+}
+ul.nav li:hover{
+	background-color: #F2F2F2;
+}
+ul.nav li:hover a {
+	color:#333259;
+}
+section.principal{
+	width: 80vw;
+	height: 70vh;
+	margin-left: 10vw;
+}
+#janela{
+	width: 100%;
+	height: 100%;
+	border: 0px;
+}
+section.rodape{
+	width: 80vw;
+	height: 13vh;
+	margin-left: 10vw;
+	background-color: #91A3D9;
+	border: 2px ridge #333259;
+}
+#endereco{
+	width: 50%;
+	height: 100%;
+	border-right: 2px solid #030A8C;
+	text-align: center;
+}
+#sobre{
+	width: 50%;
+	height: 100%;
+	text-align: center;
+	padding-top:1%;
+
+}
+section.conteudo,form{
+	width: 70vw;
+	height: auto;
+	min-height: 30vh;
+	margin-left: 15vw;
+	background-color: #91A3D9;
+	border: 2px ridge#333259;
+	border-radius: 16px;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 10vh;
+}
+section.conteudo p{
+	color: white;
+	font-family: "Times New Roman",serif;
+
+}
+input[type=submit]{
+	background-color: #030A8C;
+	width: 35%;
+	padding: 1%;
+	border-radius: 16px;
+	color:#91A3D9;
+}
+/*input [tayp=number]{
+	background-color:yellow;
+}*/
+input[type=submit]:hover{
+	background-color: gray;
+}
+
+forma a {
+	color: #030A8C;
+	font-family:"Lucida Handwriting",cursive;
+	font-size: 1.2rem;
+	text-decoration:none;
+}
+a.link:hover{
+	background-color: #333259;
+}
+img.peixes{
+	max-height: 60%;
+	max-height: 60%;
+	width: auto;
+	height: auto;
+	margin-left: 20%;
+	
+}
+
+
